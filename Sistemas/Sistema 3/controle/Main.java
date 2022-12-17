@@ -8,8 +8,7 @@ public class Main {
         while (true) {
 
             System.out.println("");
-            System.out.println(
-                    "Escolha o tipo de usuário que deseja criar: \n [1] Admin \n [2] Administrador Temporário");
+            System.out.println("Escolha o tipo de usuário que deseja criar: \n [1] Admin \n [2] Administrador Temporário");
             int escolha = leitor.nextInt();
             leitor.nextLine();
 
@@ -25,8 +24,7 @@ public class Main {
                 users.adicionar(uad);
 
                 System.out.println("");
-                System.out.println(
-                        "Escolha a saída das informações: \n [1] Mostar apenas a posição do novo usuário \n [2] Mostra tudo");
+                System.out.println("Escolha a saída das informações: \n [1] Mostar apenas a posição do novo usuário \n [2] Mostra tudo");
                 int saida = leitor.nextInt();
 
                 if (saida == 1) {
@@ -52,8 +50,7 @@ public class Main {
                 users.adicionar(uadtp);
 
                 System.out.println("");
-                System.out.println(
-                        "Escolha a saída das informações: \n [1] Mostar apenas a posição do novo usuário \n [2] Mostra tudo");
+                System.out.println("Escolha a saída das informações: \n [1] Mostar apenas a posição do novo usuário \n [2] Mostra tudo");
                 int saida = leitor.nextInt();
 
                 if (saida == 1) {
