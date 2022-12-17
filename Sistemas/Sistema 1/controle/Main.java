@@ -22,8 +22,7 @@ public class Main {
                 cursos.adicionar(edc);
 
                 System.out.println("");
-                System.out.println(
-                        "Escolha a saída das informações: \n [1] Mostar apenas a posição do novo curso \n [2] Mostra tudo");
+                System.out.println("Escolha a saída das informações: \n [1] Mostar apenas a posição do novo curso \n [2] Mostra tudo");
                 int saida = leitor.nextInt();
 
                 if (saida == 1) {
