@@ -15,7 +15,7 @@ public class Admin extends User {
     }
 
     public String toString() {
-        String t = "Admin[Username= " + this.getUsername() + " Password= " + this.getPassword() + " SecurityToken= "
+        String t = "Admin[Username= " + this.getUsername() + "  Password = " + this.getPassword() + "  SecurityToken = "
                 + this.securityToken + "]";
         return t;
     }

@@ -1,1 +1,1 @@
-Sistema 3 que faz a administração dos usuarios. 
+Sistema que administra os usuarios. 

@@ -15,7 +15,7 @@ public class Curso {
     }
 
     public String toString() {
-        String t = "Curso[Nome= " + this.nome;
+        String t = "Curso[Nome= " + this.nome + "]";
         return t;
     }
 }

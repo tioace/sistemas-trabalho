@@ -25,7 +25,7 @@ public class User {
     }
 
     public String toString() {
-        String t = "USER[Username = " + this.username + " Password = " + this.password + "]";
+        String t = "USER[Username = " + this.username + "  Password = " + this.password + "]";
         return t;
     }
 }
