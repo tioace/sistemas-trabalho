@@ -15,8 +15,8 @@ public class TemporaryAdmin extends User {
     }
 
     public String toString() {
-        String t = "TemporaryAdmin[Username= " + this.getUsername() + " Password= " + this.getPassword()
-                + " SecurityToken= " + this.securityToken + "]";
+        String t = "TemporaryAdmin[Username = " + this.getUsername() + "  Password = " + this.getPassword()
+                + "  SecurityToken = " + this.securityToken + "]";
         return t;
     }
 }

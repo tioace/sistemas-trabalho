@@ -15,7 +15,7 @@ public class Edificacoes extends Curso {
     }
 
     public String toString() {
-        String t = "Edificacoes[Nome= " + this.getNome() + " Descricao= " + this.descricao;
+        String t = "Edificacoes[Nome = " + this.getNome() + "  Descricao = " + this.descricao + "]";
         return t;
     }
 }

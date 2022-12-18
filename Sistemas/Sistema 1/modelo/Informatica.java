@@ -15,7 +15,7 @@ public class Informatica extends Curso {
     }
 
     public String toString() {
-        String t = "Informatica[Nome= " + this.getNome() + " Descricao= " + this.descricao;
+        String t = "Informatica[Nome = " + this.getNome() + "  Descricao = " + this.descricao + "]";
         return t;
     }
 }
