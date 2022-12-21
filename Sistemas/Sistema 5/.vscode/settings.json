@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["controle", 
+    "modelo"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
